@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <main class="padre">
+    <div class="padre">
         <header class="header">
                 <div class="logo">
                     <img src="img/logo1.png" alt="logo" class="imagen-logo">
@@ -38,6 +38,7 @@
                     </div>
                 </div>
         </header>
+		<main>
         <nav>
                  <ul class="navegacion">
                     <li class="elemento"><a href="#">Biograf&iacutea</a></li>
@@ -105,7 +106,8 @@
                 <pre><a href="#" class="btn">Leer más</a></pre>
               </aside>
         </section>
+		</main>
         <?php include "footer.html";?>
-    </main>
+    </div>
 </body>
 </html>
